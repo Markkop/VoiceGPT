@@ -1,0 +1,101 @@
+{
+  "invocation": "chat gpt",
+  "version": "4.0",
+  "intents": {
+    "AskIntent": {
+      "phrases": ["{question}"],
+      "entities": {
+        "question": {
+          "type": "question"
+        }
+      }
+    }
+  },
+  "entityTypes": {
+    "question": {
+      "values": [
+        {
+          "value": "allonymous isoelectrically salubrity apositia phantomize Sangraal externomedian phylloidal"
+        },
+        {
+          "value": "imbreviate Bertie arithmetical undramatically braccianite eightling imagerially leadoff"
+        },
+        {
+          "value": "mistakenness preinspire tourbillion caraguata chloremia unsupportedness squatarole licitation"
+        },
+        {
+          "value": "Cimbric sigillarid deconsecrate acceptableness balsamine anostosis disjunctively chafflike"
+        },
+        {
+          "value": "earsplitting mesoblastema outglow predeclare theriomorphism prereligious unarousing"
+        },
+        {
+          "value": "ravinement pentameter proboscidate unexigent ringbone unnormal Entomophila perfectibilism"
+        },
+        {
+          "value": "defyingly amoralist toadship psoatic boyology unpartizan merlin nonskid"
+        },
+        {
+          "value": "broadax lifeboat progenitive betel ashkoko cleronomy unpresaging pneumonectomy"
+        },
+        {
+          "value": "overharshness filtrability visual predonate colisepsis unoccurring turbanlike flyboy"
+        },
+        {
+          "value": "kilp Callicarpa unforsaken undergarment maxim cosenator archmugwump fitted"
+        },
+        {
+          "value": "ungutted pontificially Oudenodon fossiled chess Unitarian bicone justice"
+        },
+        {
+          "value": "compartmentalize prenotice achromat suitability molt stethograph Ricciaceae ultrafidianism"
+        },
+        {
+          "value": "slotter archae contrastimulant sopper Serranus remarry pterygial atactic"
+        },
+        {
+          "value": "superstrata shucking Umbrian hepatophlebotomy undreaded introspect doxographer tractility"
+        },
+        {
+          "value": "obstructionist undethroned unlockable Lincolniana haggaday vindicatively tithebook"
+        },
+        {
+          "value": "unsole relatively Atrebates Paramecium vestryish stockfish subpreceptor"
+        },
+        {
+          "value": "babied vagueness elabrate graphophonic kalidium oligocholia floccus strang"
+        },
+        {
+          "value": "undersight monotriglyphic uneffete trachycarpous albeit pardonableness Wade"
+        },
+        {
+          "value": "minacious peroratory filibeg Kabirpanthi cyphella cattalo chaffy savanilla"
+        },
+        {
+          "value": "Polyborinae Shakerlike checkerwork pentadecylic shopgirl herbary disanagrammatize shoad"
+        }
+      ]
+    }
+  },
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      },
+      "modelConfiguration": { "fallbackIntentSensitivity": { "level": "LOW" } }
+    }
+  }
+}

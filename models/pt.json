@@ -1,0 +1,101 @@
+{
+  "invocation": "chat gpt",
+  "version": "4.0",
+  "intents": {
+    "AskIntent": {
+      "phrases": ["{question}"],
+      "entities": {
+        "question": {
+          "type": "question"
+        }
+      }
+    }
+  },
+  "entityTypes": {
+    "question": {
+      "values": [
+        {
+          "value": "anonimato isoeletricamente salubridade apositia fantasmagorizar Sangraal externomediano filoidal"
+        },
+        {
+          "value": "abreviar Bertie aritmética indramaticamente braccianita oitavo imagérico líder"
+        },
+        {
+          "value": "erro pré-inspirar turbilhão caraguata clorêmia falta de suporte squatarola licitação"
+        },
+        {
+          "value": "Cimbrico sigilarid desconsagrar aceitabilidade balsamina anostose disjuntivamente semelhante a palha"
+        },
+        {
+          "value": "ensurdecedor mesoblastema resplandecer pré-declarar teriomorfismo pré-religioso inestimulante"
+        },
+        {
+          "value": "devastação pentâmetro proboscídeo inexigente osteófito anormal Entomophila perfectibilismo"
+        },
+        {
+          "value": "desafiador amoralista sapo navio psoático boyologia imparcial merlin antiderrapante"
+        },
+        {
+          "value": "machado bote vida progenitivo betel ashkoko cleronômia impredizível pneumonectomia"
+        },
+        {
+          "value": "rigidez excessiva filtrabilidade visual pré-doação colisepsia inexistente turbante aviador"
+        },
+        {
+          "value": "kilp Callicarpa não abandonado roupa íntima máximo cosenador arquimugwump ajustado"
+        },
+        {
+          "value": "não eviscerado pontificalmente Oudenodon fossilizado xadrez Unitário bicônico justiça"
+        },
+        {
+          "value": "compartimentalizar pré-aviso acromato adequação muda estetógrafo Ricciaceae ultrafidianismo"
+        },
+        {
+          "value": "entalhador arque contraste estimulante sopper Serranus se casar novamente pterígio atático"
+        },
+        {
+          "value": "superestratos descascando Umbriano hepatoflebotomia inabalável introspecção doxógrafo tracção"
+        },
+        {
+          "value": "obstrucionista destronado desbloqueável Lincolniana haggaday reivindicativo livro de dízimos"
+        },
+        {
+          "value": "sem sola relativamente Atrebates Paramecium vestryish peixe seco subpreceptor"
+        },
+        {
+          "value": "mimado vaguidão elaborado grafonônico kalidium oligocolia flocos estranho"
+        },
+        {
+          "value": "visão inferior monotríglifo inepto tracocárpico apesar de perdoável Wade"
+        },
+        {
+          "value": "ameaçador peroratório kilt Kabirpanthi cifela cátalo palhaço savanilla"
+        },
+        {
+          "value": "Polyborinae estilo Shaker obra de xadrez pentadecílico balconista horto desanagramatizar shoad"
+        }
+      ]
+    }
+  },
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      },
+      "modelConfiguration": { "fallbackIntentSensitivity": { "level": "LOW" } }
+    }
+  }
+}
