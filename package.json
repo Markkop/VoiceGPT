@@ -9,12 +9,17 @@
     "test": "jest",
     "tsc": "tsc",
     "start:dev": "tsc-watch --onSuccess \"node ./dist/app.dev.js --jovo-webhook\" --noClear",
+    "start:prod": "tsc-watch --onSuccess \"node ./dist/app.prod.js --jovo-webhook\" --noClear",
+    "get:alexa:dev": "jovo get:platform alexa --clean --stage dev",
+    "get:alexa:prod": "jovo get:platform alexa --clean --stage prod",
     "bundle": "esbuild --bundle --outfile=bundle/index.js --sourcemap --minify --keep-names --platform=node --target=node14 --format=cjs  --external:aws-sdk --external:@oclif/* --external:@jovotech/cli* --external:@alexa/*",
     "prebundle": "rimraf bundle",
     "postbundle": "cd bundle && bestzip ../bundle.zip * && cd ..",
     "bundle:dev": "npm run bundle -- src/app.dev.ts",
+    "bundle:prod": "npm run bundle -- src/app.prod.ts",
     "eslint": "eslint src test --fix --ext .ts",
-    "alexa": "jovo build:platform alexa && jovo deploy:platform alexa"
+    "alexa": "jovo build:platform alexa && jovo deploy:platform alexa",
+    "deploy:code": "npm run bundle:prod && serverless deploy --stage prod"
   },
   "dependencies": {
     "@jovotech/db-filedb": "^4.5.2",
@@ -23,6 +28,8 @@
     "@jovotech/platform-googleassistant": "^4.5.5",
     "@jovotech/plugin-debugger": "^4.5.2",
     "@jovotech/server-express": "^4.5.2",
+    "@jovotech/server-lambda": "^4.5.5",
+    "js-yaml": "^4.1.0",
     "openai": "^3.2.1",
     "source-map-support": "^0.5.19"
   },
