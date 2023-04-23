@@ -1,43 +1,11 @@
-# Jovo v4 Template
+# 🎙️ Essence Helper
 
-[![Jovo Framework](https://www.jovo.tech/img/github-header.png)](https://www.jovo.tech)
+[![https://img.shields.io/static/v1?label=made%20with&message=jovo&color=272f48&logo=data:https://www.jovo.tech/favicon.ico](https://img.shields.io/static/v1?label=made%20with&message=jovo&color=272f48)](https://www.jovo.tech)
+[![https://img.shields.io/static/v1?label=google%20assistant&message=compatible&logo=googleassistant&color=brightgreen](https://img.shields.io/static/v1?label=google%20assistant&message=compatible&logo=googleassistant&color=brightgreen)](https://assistant.google.com/services/a/uid/0000005dbaeb2c8d?hl=en-US)
+[![https://img.shields.io/static/v1?label=amazon%20alexa&message=compatible&logo=amazonalexa&color=brightgreen](https://img.shields.io/static/v1?label=amazon%20alexa&message=compatible&logo=amazonalexa&color=brightgreen)](https://www.amazon.com/dp/B09T6XJ3NT)
 
-<p>
-<a href="https://www.jovo.tech" target="_blank">Website</a> -  <a href="https://www.jovo.tech/docs" target="_blank">Docs</a> - <a href="https://www.jovo.tech/marketplace" target="_blank">Marketplace</a> - <a href="https://github.com/jovotech/jovo-v4-template" target="_blank">Template</a>   
-</p>
+This project is made using [Jovo Framework](https://www.jovo.tech) with the goal to avoid duplicate logic and code while developing the skill for Alexa and Google Assistant.  
 
-A sample [Jovo `v4`](https://www.jovo.tech) app that makes it possible to build experiences for voice and chat platforms.
+![image](https://user-images.githubusercontent.com/16388408/233818980-dd24d147-93c8-4b1d-b53b-8829aa6d2188.png)
 
-This is the default template for the [`jovo new` command](https://www.jovo.tech/docs/new-command).
-
-## Getting Started
-
-> Learn more in Jovo docs: https://www.jovo.tech/docs/getting-started
-
-You can install the new Jovo CLI like this:
-
-```sh
-# Install globally
-$ npm install -g @jovotech/cli
-
-# Test the installation
-$ jovo -v
-```
-
-After successfully installing the Jovo CLI, you can install the template using the [`new` command](https://www.jovo.tech/docs/new-command):
-
-```sh
-$ jovo new <directory>
-```
-
-Change your working directory into your newly created project directory and [`run`](https://www.jovo.tech/docs/run-command) your Jovo app:
-
-```sh
-# Change working directory to your previously specified directory
-$ cd <directory>
-
-# Run local development server
-$ jovo run
-```
-
-You can now open the Jovo Debugger with the `.` key.
+Work in progress
